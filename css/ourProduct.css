@@ -1,3 +1,6 @@
-#product{
-    background: url(url(../ourProduct.jpeg));
+#pr{
+    width:95%;
+    height: 300px;
+    
+    text-align: center;
 }
