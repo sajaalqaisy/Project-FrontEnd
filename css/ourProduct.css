@@ -1,6 +1,16 @@
 #pr{
     width:95%;
     height: 300px;
-    
-    text-align: center;
+    padding-left: 33px;
+ }
+ #nav{
+    background-color: #af4c6d;
+   
 }
+   
+ 
+ 
+ #nav a {
+     color: black;
+    margin: auto;
+ }
