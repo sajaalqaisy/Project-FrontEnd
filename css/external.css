@@ -1,0 +1,80 @@
+#grid
+{
+    display: grid;
+    grid-template-columns:  auto auto;
+    grid-gap: 40px;
+    text-align: center;
+    margin-left: 130px;
+}
+
+#jl{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#tr{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#ne{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#product{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #af4c6d;
+    color: white;
+    font-size: medium;
+    margin-left: 350px;
+    margin-top: 80px;
+   
+}
+#tromaleen{
+    background-color: whitesmoke;
+    width: 380px;
+    height: 450px;
+    border-radius: 20px;
+    
+}
+button{
+    background-color: rgb(5, 37, 177);
+    border-radius: 20px;
+
+}
+#jlotstcs{
+    background-color: whitesmoke;
+    width: 380px;
+    height: 450px;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 300px;
+}
+#neuticx{
+    background-color: whitesmoke;
+    width: 380px;
+    height: 450px;
+    border-radius: 20px;
+    
+}
+.image{
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+    
+}
+.image:hover{
+  
+        
+    transform: scale(1.3);
+}
+.image-label{
+    background-color: rgb(69, 98, 230);
+    border-radius: 20px;
+
+}
