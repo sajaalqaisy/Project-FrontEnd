@@ -11,3 +11,4 @@ cssfile.href='css/ourProduct.css'
 else{
     document.body.style.backgroundColor='white' 
 }
+document.body.style.backgroundColor=localStorage.getItem('theme')
