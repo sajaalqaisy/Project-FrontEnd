@@ -40,3 +40,11 @@ var internal2 =document.getElementById('internal2')
    function internal(){
     window.location.href="./internal.html"
 }
+var epocxi2 =document.getElementById('epocxi2')
+   function epocxi(){
+    window.location.href="./epocxi.html"
+}
+var Insulation2 =document.getElementById('Insulation2')
+   function Insulation(){
+    window.location.href="./Insulation.html"
+}

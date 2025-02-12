@@ -1,0 +1,41 @@
+ep{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right:  200px;
+   
+}
+
+#product{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #af4c6d;
+    color: white;
+    font-size: medium;
+    margin-left:600px;
+    margin-top: 100px;
+    
+}
+
+button{
+    background-color: rgb(5, 37, 177);
+    border-radius: 20px;
+
+}
+
+
+.image{
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+    margin-top: 30px;
+    margin-left:  600px;
+   
+    
+}
+.image:hover{
+  
+        
+    transform: scale(1.3);
+}
