@@ -3,5 +3,3 @@ function ourproduct(){
     window.location.href="./ourProduct.html"
 }
 
-
-
