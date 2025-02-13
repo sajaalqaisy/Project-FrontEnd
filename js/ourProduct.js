@@ -38,10 +38,10 @@ var white=document.getElementById('white')
           localStorage.setItem('file','css/arabic.css')
         });
     }
-//     var external2 =document.getElementById('external2')
-//    function external(){
-//     window.location.href="./external.html"
-// }
+    var external2 =document.getElementById('external2')
+   function external(){
+    window.location.href="./external.html"
+}
 var internal2 =document.getElementById('internal2')
    function internal(){
     window.location.href="./internal.html"
