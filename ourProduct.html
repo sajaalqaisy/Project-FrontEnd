@@ -17,7 +17,7 @@
               <div class="collapse navbar-collapse" id="navbarExample01">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="./page1.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a id="product"  class="nav-link" aria-current="page" href="./ourProduct.html" >Our Product </a>
@@ -29,30 +29,26 @@
                   
                   
         
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     theme
-                    </a>
-              
-                    <ul class="dropdown-menu">
+                  <div class="dropdown">
+                    <button id="theme" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      Theme
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li id="white" ><button class="dropdown-item" type="button">white</button></li>
+                      <li id="black"><button class="dropdown-item" type="button">dark</button></li>
                 
-                      <li id="white"><a class="dropdown-item" href="#">white</a></li>
-                      <li id="black"><a class="dropdown-item" href="#">dark</a></li>
-                      
                     </ul>
-                  </li>
-                  <li class="nav-item dropdown" >
-                    <a  class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" checked>
-                     Languge
-                    </a>
-              
-                    <ul class="dropdown-menu" >
-                
-                      <li id="English"><a class="dropdown-item" href="#">English</a></li>
-                      <li id="Arabic"><a class="dropdown-item" href="#">Arabic</a></li>
-                      
+                  </div>
+                  <div class="dropdown">
+                    <button id="theme" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      Languge
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li id="English"><button class="dropdown-item" type="button">English</button></li>
+                      <li id="Arabic" ><button class="dropdown-item" type="button">Arabic</button></li>
+                     
                     </ul>
-                  </li>
+                  </div>
                 </ul>
                  
                 

@@ -11,6 +11,8 @@ var white=document.getElementById('white')
        localStorage.setItem('theme','black')
       
     })
+    var cssfile=document.getElementById('cssfile')
+    cssfile.href=localStorage.getItem('file')
     var English = document.getElementById('English');
     var Arabic = document.getElementById('Arabic');   
     var lang = localStorage.getItem('lang');
@@ -24,18 +26,22 @@ var white=document.getElementById('white')
         English.addEventListener('click', function () {
             document.dir = 'ltr'; 
             localStorage.setItem('lang', 'en');
+            cssfile.href='css/english.css'
+            localStorage.setItem('file','css/english.css')
         });
     }
     if (Arabic) {
         Arabic.addEventListener('click', function () {
             document.dir = 'rtl'; 
             localStorage.setItem('lang', 'ar'); 
+            cssfile.href='css/arabic.css'
+          localStorage.setItem('file','css/arabic.css')
         });
     }
-    var external2 =document.getElementById('external2')
-   function external(){
-    window.location.href="./external.html"
-}
+//     var external2 =document.getElementById('external2')
+//    function external(){
+//     window.location.href="./external.html"
+// }
 var internal2 =document.getElementById('internal2')
    function internal(){
     window.location.href="./internal.html"
