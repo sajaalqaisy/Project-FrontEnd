@@ -4,7 +4,9 @@
     grid-template-columns:  auto auto;
     grid-gap: 40px;
     text-align: center;
-    margin-left: 130px;
+    margin-left: 110px;
+    margin-top: 70px;
+   
 }
 
 #jl{
@@ -33,7 +35,7 @@
     color: white;
     font-size: medium;
     margin-left: 350px;
-    margin-top: 80px;
+    margin-top: 100px;
    
 }
 #tromaleen{
@@ -77,4 +79,24 @@ button{
     background-color: rgb(69, 98, 230);
     border-radius: 20px;
 
+}
+.container {
+    background-color:  #af4c6d; 
+    padding:55px; 
+    margin-top:  100px;
+
+  }
+  #grid2
+{
+    display: grid;
+    grid-template-columns:  auto auto;
+    grid-gap: 40px;
+    text-align: center;
+    margin-left: 110px;
+    color: rgb(251, 255, 0);
+   
+}
+#service{
+    text-align: center;
+    color: rgb(251, 255, 0);
 }
