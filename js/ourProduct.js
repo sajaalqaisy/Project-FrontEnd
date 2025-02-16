@@ -11,23 +11,22 @@ var white=document.getElementById('white')
        localStorage.setItem('theme','black')
       
     })
-    var cssfile=document.getElementById('cssfile')
-    cssfile.href=localStorage.getItem('file')
-    var English = document.getElementById('English');
-    var Arabic = document.getElementById('Arabic');   
-    var lang = localStorage.getItem('lang');
-    if (lang === 'en') {
-        document.dir = 'ltr'; 
-    } else {
-        document.dir = 'rtl';  
-    }
-    
+var English = document.getElementById('English');
+var Arabic = document.getElementById('Arabic');   
+var lang = localStorage.getItem('lang');
+if (lang === 'en') {
+    document.dir = 'ltr'; 
+} else {
+    document.dir = 'rtl';  
+}
+
+
     if (English) {
         English.addEventListener('click', function () {
             document.dir = 'ltr'; 
             localStorage.setItem('lang', 'en');
-            cssfile.href='css/english.css'
-            localStorage.setItem('file','css/english.css')
+            cssfile.href='css/ourProduct.css'
+            localStorage.setItem('file','css/ourProduct.css')
         });
     }
     if (Arabic) {
