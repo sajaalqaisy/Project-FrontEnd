@@ -14,10 +14,14 @@ var white=document.getElementById('white')
 var English = document.getElementById('English');
 var Arabic = document.getElementById('Arabic');   
 var lang = localStorage.getItem('lang');
+console.log(lang)
+
 if (lang === 'en') {
     document.dir = 'ltr'; 
+     cssfile.href='css/ourProduct.css'
 } else {
     document.dir = 'rtl';  
+    cssfile.href='css/arabic.css'
 }
 
 
